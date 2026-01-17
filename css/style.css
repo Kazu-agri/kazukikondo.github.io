@@ -75,3 +75,28 @@ body {
   color: #111827;
 }
 
+.card { box-shadow: none; }
+
+.card-tight {
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.h2-tight {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.simple {
+  margin: 0.25rem 0 1.25rem 0;
+  padding-left: 1.1rem;
+}
+.simple li { margin: 0.35rem 0; }
+
+.sub {
+  margin-top: 0.25rem;
+  font-size: 0.9em;
+  color: #6b7280;
+}
