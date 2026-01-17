@@ -131,47 +131,41 @@ body {
 }
 
 /* =========================
-   Publications
+   Publications (final)
 ========================= */
+
 .pub {
   padding-left: 1.2rem;
   margin: 0.25rem 0 0.75rem 0;
 }
 
 .pub li {
-  margin-bottom: 0.6rem;
-  line-height: 1.7;
+  margin-bottom: 1.2rem;   /* 業績ごとの余白 */
+  line-height: 1.75;
 }
 
-/* underline for own name */
-.author.me {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
-}
-
-/* Publication 3-line layout */
+/* 3-line layout */
 .pub-authors {
   font-weight: 600;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.15rem;
 }
 
 .pub-title {
-  margin-left: 0.5rem;
-  margin-bottom: 0.1rem;
+  margin-left: 0.75rem;
+  margin-bottom: 0.15rem;
 }
 
 .pub-meta {
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
   font-size: 0.9em;
   color: #4b5563;
 }
 
-/* underline for own name */
-.author.me {
+/* underline for own name (force) */
+.pub .author.me {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
 }
 
 
