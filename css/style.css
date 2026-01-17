@@ -167,6 +167,68 @@ body {
   text-underline-offset: 3px;
 }
 
+/* =========================
+   Polish pack (append)
+========================= */
+
+/* 全体の余白と文字の読みやすさ */
+.container {
+  line-height: 1.75;
+}
+
+/* 見出しの間隔を整える */
+h1 { margin: 0 0 1rem 0; }
+h2 { margin: 1.25rem 0 0.6rem 0; }
+
+/* カード間のリズム */
+.card { margin-bottom: 1.25rem; }
+
+/* ナビを少しだけ上品に */
+.nav a {
+  padding: 0.25rem 0.4rem;
+  border-radius: 8px;
+}
+.nav a:hover {
+  background: rgba(255,255,255,0.08);
+  text-decoration: none;
+}
+
+/* 本文リンク（DOI等）の視認性 */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* 研究メモ一覧：カード見出しのリンクを太めに */
+.card h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.card h2 a:hover { text-decoration: underline; }
+
+/* サブテキスト（日時など）を少し控えめに */
+.sub {
+  line-height: 1.4;
+}
+
+/* Publicationsの見た目：余白と行間 */
+.pub li {
+  padding-bottom: 0.2rem;
+}
+
+/* DOIリンクが長くても折り返す */
+.pub-meta a {
+  word-break: break-word;
+}
+
+/* スマホの時、見出しやカードの余白を少し詰める */
+@media (max-width: 820px) {
+  .header { padding: 2rem 1rem; }
+  .card { padding: 1rem; }
+  h2 { margin-top: 1.0rem; }
+}
+
 
 /* =========================
    Responsive (mobile)
