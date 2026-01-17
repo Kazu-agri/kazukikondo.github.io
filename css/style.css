@@ -240,15 +240,15 @@ a:hover { text-decoration: underline; }
   transition: color 0.2s ease;
 }
 
-/* カード自体がホバーで浮く（クリックできる感） */
+/* カードは浮かせない（上品に） */
 .card {
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: border-color 0.15s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  border-color: #d1d5db; /* 少し濃く */
 }
+
 
 /* ホバー時だけ「リンクだ」と分かる */
 .card h2 a:hover {
