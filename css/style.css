@@ -216,6 +216,41 @@ h2 { margin: 1.25rem 0 0.6rem 0; }
   margin: 0.25rem 0 0 0;
   line-height: 1.7;
 }
+/* =========================
+   Table of Contents (TOC)
+========================= */
+
+.toc {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin: 0.4rem 0;
+}
+
+/* 通常時 */
+.toc a {
+  display: inline-block;
+  color: #111827;            /* 黒寄り */
+  text-decoration: none;     /* 下線なし */
+  transition:
+    transform 0.15s ease,
+    color 0.15s ease;
+}
+
+/* ホバー時 */
+.toc a:hover {
+  color: #2563eb;            /* ほんのり青 */
+  transform: scale(1.05);    /* 少しだけ拡大 */
+}
+
+/* キーボード操作時（アクセシビリティ） */
+.toc a:focus-visible {
+  outline: none;
+  color: #2563eb;
+  transform: scale(1.05);
+}
 
 /* =========================
    Responsive (mobile)
