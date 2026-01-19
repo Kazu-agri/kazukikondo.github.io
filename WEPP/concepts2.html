@@ -3,7 +3,12 @@ layout: default
 title: "はじめに（WEPPの概要）｜WEPPの使い方"
 description: "【研究室向け】WEPP（Water Erosion Prediction Project）の概要。何を計算するモデルか、入力4本柱、圃場（hillslope）から理解するための基本。"
 header_lead: "1. はじめに（WEPPの概要）"
+wepp_prev_url: /WEPP/
+wepp_prev_title: "目次"
+wepp_next_url: /WEPP/getting_started.html
+wepp_next_title: "2. WEPPのインストール"
 ---
+
 
 <p class="sub breadcrumb">
   <a href="{{ '/' | relative_url }}">Home</a> /
@@ -115,10 +120,4 @@ header_lead: "1. はじめに（WEPPの概要）"
   </ul>
 </section>
 
-<section class="card card-tight">
-  <h2 class="h2-tight">次に進む</h2>
-  <ul class="simple">
-    <li><a href="{{ '/WEPP/getting_started.html' | relative_url }}">2. WEPPのインストール</a></li>
-  </ul>
-  <p class="sub"><a href="{{ '/WEPP/' | relative_url }}">← WEPPの使い方トップへ戻る</a></p>
-</section>
+{% include wepp_nav.html %}
