@@ -1,1 +1,82 @@
-準備中
+---
+layout: default
+title: "3. 入力データ（Climate / Soil / Management / Topography）｜WEPPの使い方"
+description: "WEPPの入力4本柱の全体像と、最低限押さえるべきポイント。"
+header_lead: "3. 入力データ（4本柱）"
+wepp_prev_url: /WEPP/getting_started.html
+wepp_prev_title: "2. WEPPのインストール"
+wepp_next_url: /WEPP/outputs.html
+wepp_next_title: "4. 出力の見方（最低限）"
+---
+
+<p class="sub breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a> /
+  <a href="{{ '/other.html' | relative_url }}">その他</a> /
+  <a href="{{ '/WEPP/' | relative_url }}">WEPPの使い方</a> /
+  3. 入力データ
+</p>
+
+<section class="card">
+  <h2 class="h2-tight">このページのゴール</h2>
+  <ul class="simple">
+    <li>WEPPの入力が「4本柱」で構成されることを理解する</li>
+    <li>各入力が結果にどう効くかの“方向感”を掴む</li>
+    <li>まずはサンプルを動かして、変更→出力の変化を確認できるようにする</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">入力の全体像（4本柱）</h2>
+  <ul class="simple">
+    <li><strong>Climate：</strong>雨の降り方・頻度・継続時間など</li>
+    <li><strong>Soil：</strong>浸透や削れやすさ等の土壌物性</li>
+    <li><strong>Management：</strong>作物・耕うん・被覆・残渣など人間要因</li>
+    <li><strong>Topography：</strong>斜面長・勾配・区間分割</li>
+  </ul>
+  <p class="sub">
+    ここに書く内容：まずは「どれを変えると何が変わるか」を短い例で示す（後で追記）。
+  </p>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">Climate（気象）</h2>
+  <p class="sub">ここに書く内容：CLIGEN/BPCDG/観測降雨の違い、最初に見るべき項目。</p>
+  <ul class="simple">
+    <li>（TODO）</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">Soil（土壌）</h2>
+  <p class="sub">ここに書く内容：主要パラメータ、土壌データの入手、注意点。</p>
+  <ul class="simple">
+    <li>（TODO）</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">Management（管理）</h2>
+  <p class="sub">ここに書く内容：作物・耕うん・被覆（残渣）で結果がどう変わるか。</p>
+  <ul class="simple">
+    <li>（TODO）</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">Topography（地形）</h2>
+  <p class="sub">ここに書く内容：斜面長・勾配・区間分割、よくあるミス。</p>
+  <ul class="simple">
+    <li>（TODO）</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2 class="h2-tight">最低限のチェックリスト</h2>
+  <ul class="simple">
+    <li>（TODO）出力の水収支（雨→浸透→流出）が破綻していないか</li>
+    <li>（TODO）極端な設定になっていないか（勾配、粗度、被覆など）</li>
+    <li>（TODO）目的に対してスケール（hillslope / watershed）が適切か</li>
+  </ul>
+</section>
+
+{% include wepp_nav.html %}
