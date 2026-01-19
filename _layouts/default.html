@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  {% assign og_img = site.og_image | default: "/assets/ogp.png" %}
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ page.og_title | default: page.title | default: site.title }}" />
+<meta property="og:description" content="{{ page.og_description | default: page.description | default: site.description }}" />
+<meta property="og:image" content="{{ og_img | absolute_url }}" />
+<meta property="og:locale" content="ja_JP" />
+
   {% include head.html %}
 </head>
 <body>
